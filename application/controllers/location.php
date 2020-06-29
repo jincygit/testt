@@ -12,7 +12,7 @@ class Location extends CI_Controller {
 $this->load->library(array('form_validation'));
 	}
 	public function index()
-	{//indexone255
+	{//develop
 		$this->load->view('location\insertform');
 	}
 	public function testvalidate()
